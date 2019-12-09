@@ -1,0 +1,86 @@
+[
+{"type": "flex", 
+"altText": "苦楝",
+"contents": 
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "13:20",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/91KMcvG.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "苦楝",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學名：Melia azedarach\n別名：苦苓、楝、楝樹、楝子",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "花期：春夏之交開花\n花果：粉紅與白色圓錐花，黃色卵形核果\n葉子：小葉卵形、橢圓形至披針形",
+                "wrap": true,
+                "weight": "bold",
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌲 看看更多樹 🌲",
+              "data": "folder=tree_menu"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "資料來源",
+              "uri": "https://zh.wikipedia.org/wiki/%E8%8B%A6%E6%A5%9D"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
+]

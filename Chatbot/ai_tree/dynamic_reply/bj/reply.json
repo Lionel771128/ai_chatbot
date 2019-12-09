@@ -1,0 +1,86 @@
+[
+{"type": "flex", 
+"altText": "茄苳",
+"contents": 
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "13:20",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/BlfOBZ9.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "茄苳",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學名：Bischofia javanica\n別名：秋風、茄苳、萬年青樹、赤木、秋風子木樑木",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "花期：2月～4月\n花果：球形漿果，熟時為暗褐色\n葉子：小葉復生\n樹幹：深紅色到深咖啡色",
+                "wrap": true,
+                "weight": "bold",
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌲 看看更多樹 🌲",
+              "data": "folder=tree_menu"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "資料來源",
+              "uri": "https://zh.wikipedia.org/wiki/%E7%A7%8B%E6%9E%AB"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
+]

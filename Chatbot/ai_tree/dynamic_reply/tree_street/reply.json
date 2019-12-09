@@ -1,0 +1,67 @@
+[
+{"type": "flex", 
+"altText": "賞樹一條街",
+"contents": 
+
+
+
+
+
+
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "賞樹一條街",
+        "size": "xxl"
+      },
+      {
+        "type": "text",
+        "text": "陸續新增中..."
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "uri": "https://goo.gl/maps/bJcRGqJDswrebVHF6",
+          "label": "台灣欒樹：台北市士林區忠誠路"
+        },
+        "style": "primary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "青楓：陽明山竹子湖青楓步道",
+          "uri": "https://goo.gl/maps/F9NMARAZcdNZr2gy8"
+        },
+        "style": "secondary"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "uri",
+          "label": "阿勃勒：台北市萬華區青年公園",
+          "uri": "https://goo.gl/maps/GdzpuwscFCUifxHu8"
+        },
+        "style": "primary"
+      }
+    ]
+  }
+}
+
+
+
+
+}
+]

@@ -1,0 +1,62 @@
+[
+{"type": "flex", 
+"altText": "こんにちは〜🌲",
+"contents": 
+
+
+
+{
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/pDFJC4f.jpg",
+    "size": "full",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "これはどんな木ですか？AIで調べよう！"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "木見地図",
+              "data": "folder=map"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "AIを使う",
+              "data": "folder=model_selection"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "data": "folder=story",
+              "label": "木の物語"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+}
+]

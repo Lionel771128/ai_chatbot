@@ -1,0 +1,10 @@
+tensorflow==1.14
+keras
+pandas
+opencv-python
+pillow
+django
+psycopg2
+uwsgi
+line-bot-sdk
+tqdm

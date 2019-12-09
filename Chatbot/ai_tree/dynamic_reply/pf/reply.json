@@ -1,0 +1,86 @@
+[
+{"type": "flex", 
+"altText": "大葉山欖",
+"contents": 
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "13:20",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/4ijlWgL.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "大葉山欖",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學名：Palaquium formosanum\n別名：台灣膠木、杆仔樹、臭屁梭",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "花期：11月~1月\n花果：果實橢圓形，長3.5cm\n葉子：葉枝端叢生，長橢圓形或長卵形，質厚表面平滑",
+                "wrap": true,
+                "weight": "bold",
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌲 看看更多樹 🌲",
+              "data": "folder=tree_menu"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "資料來源",
+              "uri": "https://zh.wikipedia.org/wiki/%E5%A4%A7%E8%91%89%E5%B1%B1%E6%AC%96"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
+]

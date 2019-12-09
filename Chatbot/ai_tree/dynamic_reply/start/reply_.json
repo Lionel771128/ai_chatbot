@@ -1,0 +1,18 @@
+[{
+  "type": "template",
+  "altText": "this is a buttons template",
+  "template": {
+    "type": "buttons",
+    "actions": [
+      {
+        "type": "postback",
+        "label": "立馬玩！",
+        "text": "立馬玩！",
+        "data": "folder=start"
+      }
+    ],
+    "thumbnailImageUrl": "https://greatplainsnursery.com/wp-content/uploads/2016/12/oak-tree-pic-1080x675.jpg",
+    "title": "這是什麼樹？",
+    "text": "玩AI辨識、找熱門樹種、了解AI如何學習茁壯"
+  }
+}]

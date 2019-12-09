@@ -1,0 +1,86 @@
+[
+{"type": "flex", 
+"altText": "黑板樹",
+"contents": 
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "13:20",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/1CrLyVL.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "黑板樹",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學名：Alstonia scholaris\n別名：象皮樹、燈架樹、糖膠樹、乳木、魔神樹",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "花期：11月到12月\n花果：淡白綠色，聚繖花序排成繖房狀，成簇生於枝條末梢，有股奇特的氣味\n葉子：掌狀複葉，輪生",
+                "wrap": true,
+                "weight": "bold",
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌲 看看更多樹 🌲",
+              "data": "folder=tree_menu"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "資料來源",
+              "uri": "https://zh.wikipedia.org/wiki/%E9%BB%91%E6%9D%BF%E6%A8%B9"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
+]

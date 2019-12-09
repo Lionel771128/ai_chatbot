@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "AI模型選單",
+  "chatBarText": "選擇偵測模型",
+  "areas": [
+    {
+      "bounds": {
+        "x": 23,
+        "y": 23,
+        "width": 798,
+        "height": 383
+      },
+      "action": {
+        "type": "postback",
+        "data": "model=yolov3_tree"
+      }
+    },
+    {
+      "bounds": {
+        "x": 863,
+        "y": 28,
+        "width": 779,
+        "height": 373
+      },
+      "action": {
+        "type": "postback",
+        "data": "model=yolov3_leaf"
+      }
+    },
+    {
+      "bounds": {
+        "x": 42,
+        "y": 448,
+        "width": 779,
+        "height": 368
+      },
+      "action": {
+        "type": "postback",
+        "data": "model=clr_tree"
+      }
+    },
+    {
+      "bounds": {
+        "x": 858,
+        "y": 443,
+        "width": 788,
+        "height": 369
+      },
+      "action": {
+        "type": "postback",
+        "data": "model=clr_leaf"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1684,
+        "y": 28,
+        "width": 774,
+        "height": 369
+      },
+      "action": {
+        "type": "postback",
+        "data": "menu=main_menu"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1684,
+        "y": 448,
+        "width": 779,
+        "height": 359
+      },
+      "action": {
+        "type": "postback",
+        "data": "menu=story_menu"
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+[
+{"type": "flex", 
+"altText": "台灣欒樹",
+"contents": 
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "image",
+        "size": "full",
+        "aspectRatio": "13:20",
+        "aspectMode": "cover",
+        "url": "https://i.imgur.com/CMbQVeD.jpg"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "台灣欒樹",
+            "wrap": true,
+            "weight": "bold",
+            "size": "xl"
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "學名：Koelreuteria elegans\n別名：苦楝舅、苦苓江、金苦楝、木欒仔",
+                "color": "#aaaaaa",
+                "wrap": true,
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "花期：秋季10月開花\n花果：黃色花冠、紅色鈴鐺狀果實\n葉子：鋸齒葉緣",
+                "wrap": true,
+                "weight": "bold",
+                "size": "sm",
+                "flex": 0
+              }
+            ]
+          }
+        ]
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌲 看看更多樹 🌲",
+              "data": "folder=tree_menu"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "資料來源",
+              "uri": "https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%AC%92%E6%A8%B9"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}}
+]

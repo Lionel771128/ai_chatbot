@@ -1,0 +1,7 @@
+{
+    "model" : {
+        "input_size": 299,
+        "labels": ["Acer serrulatum","ホウオウボク（鳳凰木）","Ficus fistulosa","オオバイヌビワ （大葉犬枇杷）","タイワンフウ","Palaquium formosanum","Peltophorum pterocarpum","モモタマナ"],
+        "saved_weights_name": "leaf_InceptionV3_acc94.h5"
+    }
+}

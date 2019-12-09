@@ -1,0 +1,62 @@
+[
+{"type": "flex", 
+"altText": "樹的故事",
+"contents": 
+
+
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "📖 樹的故事",
+        "size": "xl"
+      },
+      {
+        "type": "separator"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🌴 認識樹木",
+              "data": "folder=tree_menu"
+            },
+            "gravity": "bottom"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "🏕 城市綠化",
+              "data": "folder=tree_apply"
+            },
+            "gravity": "bottom"
+          }
+        ]
+      }
+    ]
+  },
+  "size": "mega",
+  "styles": {
+    "body": {
+      "backgroundColor": "#F0FFF0"
+    }
+  }
+}
+
+
+
+
+}
+]

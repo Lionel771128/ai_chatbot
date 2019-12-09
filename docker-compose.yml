@@ -1,0 +1,62 @@
+version: '3.5'
+services:
+
+#    db:
+#      container_name: 'postgres'
+#      image: postgres
+#      environment:
+#        POSTGRES_PASSWORD: password123
+#      ports:
+#        - "5432:5432"
+#        # (HOST:CONTAINER)
+#
+#      volumes:
+#        - pgdata:/var/lib/postgresql/data/
+#        - target:/var/run/postgresql/
+#      networks:
+#        - proxy
+
+
+    nginx:
+      container_name: nginx-container
+      build: ./nginx
+      restart: always
+      ports:
+        # - "8080:80"
+        - "8000:8000"
+      volumes:
+        - api_data:/docker_api
+        - ./log:/var/log/nginx
+      depends_on:
+        - web
+
+
+
+
+    web:
+      container_name: ai-chatbot
+      build: ./Chatbot
+#      command: uwsgi --ini /djangodemo_docker_test/ai_chatbot_uwsgi/djangodemo.ini
+     # command: python manage.py runserver
+      command: uwsgi --ini /docker_api/ai_chatbot_uwsgi/djangodemo.ini
+      restart: always
+      volumes:
+        - api_data:/docker_api
+#        - target:/var/run/postgresql/
+        # (HOST:CONTAINER)
+#      ports:
+#        - "8001:8001"
+      depends_on:
+#        - db
+#      networks:
+#        - proxy
+
+volumes:
+  api_data:
+#  pgdata:
+#  target:
+
+
+#networks:
+#  proxy:
+#    name: my_network

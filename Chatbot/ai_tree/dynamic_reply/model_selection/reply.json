@@ -1,0 +1,100 @@
+[
+{"type": "flex", 
+"altText": "AIモデル",
+"contents":
+
+
+
+{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "好きなモデルをお選びください",
+        "size": "xl"
+      }
+    ]
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "物体検出：樹形",
+              "data": "model=yolov3_tree"
+            },
+            "style": "secondary",
+            "color": "#2E8B57"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "物体検出：葉",
+              "data": "model=yolov3_leaf"
+            },
+            "style": "secondary",
+            "color": "#3CB371"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "画像認識：樹形",
+              "data": "model=clr_tree"
+            },
+            "style": "secondary",
+            "color": "#CD5C5C"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "画像認識：葉",
+              "data": "model=clr_leaf"
+            },
+            "style": "secondary",
+            "color": "#F08080"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#F0FFF0"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+]

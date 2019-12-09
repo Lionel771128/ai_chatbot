@@ -1,0 +1,344 @@
+[
+{"type": "flex", 
+"altText": "バックエンド アーキテクチャ",
+"contents": 
+
+
+
+
+{
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/JHlZIOT.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold",
+                    "text": "Chatbot API + FTP"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. ユーザーがLineでAI Serverを繋げる\n2. Android Appもある",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "relative",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "バックエンド　アーキテクチャ",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334baa",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "200px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/gosWewx.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "GCP Server + LB/FW",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. Load balance & Fire Wall\n2. 二つ以上のサーバーを分流する。",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/2VOty1Z.jpg",
+            "size": "full",
+            "aspectMode": "cover",
+            "aspectRatio": "818:1240",
+            "gravity": "top"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "AI Chatbot App + DB",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "1. DNS serverはNGINX\n2. 内部の繋ぎ方はunix socket",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    },
+    {
+      "type": "bubble",
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "Line Chatbot API"
+              },
+              {
+                "type": "text",
+                "text": "DNS Service"
+              },
+              {
+                "type": "text",
+                "text": "GCP: Google Cloud Platform"
+              },
+              {
+                "type": "text",
+                "text": "LB: Load Balance"
+              },
+              {
+                "type": "text",
+                "text": "FW: Firewall"
+              },
+              {
+                "type": "text",
+                "text": "CentOS 7"
+              },
+              {
+                "type": "text",
+                "text": "NGINX"
+              },
+              {
+                "type": "text",
+                "text": "Unix Socket"
+              },
+              {
+                "type": "text",
+                "text": "Django"
+              },
+              {
+                "type": "text",
+                "text": "uWSGI"
+              },
+              {
+                "type": "text",
+                "text": "mangoDB"
+              }
+            ],
+            "offsetTop": "50px",
+            "offsetBottom": "10px",
+            "offsetStart": "10px",
+            "offsetEnd": "10px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "Server",
+                    "size": "xl",
+                    "color": "#006400",
+                    "weight": "bold"
+                  }
+                ]
+              },
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "WEBフレンワークはDjango\n良いユーザー体験が提供できる",
+                    "color": "#006400",
+                    "size": "sm",
+                    "flex": 0,
+                    "wrap": true
+                  }
+                ],
+                "spacing": "lg"
+              }
+            ],
+            "position": "absolute",
+            "offsetBottom": "0px",
+            "offsetStart": "0px",
+            "offsetEnd": "0px",
+            "backgroundColor": "#98FB98",
+            "paddingAll": "20px",
+            "paddingTop": "18px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "技術リスト",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "xs",
+                "offsetTop": "3px"
+              }
+            ],
+            "position": "absolute",
+            "cornerRadius": "20px",
+            "offsetTop": "18px",
+            "backgroundColor": "#ff334baa",
+            "offsetStart": "18px",
+            "height": "25px",
+            "width": "80px"
+          }
+        ],
+        "paddingAll": "0px"
+      }
+    }
+  ]
+}
+
+
+
+
+
+}
+]

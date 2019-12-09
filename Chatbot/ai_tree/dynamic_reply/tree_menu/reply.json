@@ -1,0 +1,282 @@
+[
+{"type": "flex", 
+"altText": "認識 樹＆團隊",
+"contents": 
+
+
+
+{
+  "type": "bubble",
+  "size": "giga",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "🌲認識這些樹 ＆ 認識團隊",
+        "size": "xl"
+      }
+    ],
+    "margin": "xs",
+    "spacing": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "10人團隊，來自各界專業，看簡介 ➡️",
+              "data": "folder=great_team"
+            },
+            "style": "secondary",
+            "color": "#FFE4C4"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "臺灣欒樹",
+              "data": "folder=ke"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "苦楝",
+              "data": "folder=ma"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "鳳凰木",
+              "data": "folder=dr"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "盾柱木",
+              "data": "folder=pp"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "楓香",
+              "data": "folder=lf"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "青楓",
+              "data": "folder=ae"
+            },
+            "style": "primary"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "大葉欖仁",
+              "data": "folder=tc"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "大葉山欖",
+              "data": "folder=pf"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "水同木",
+              "data": "folder=ff"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "稜果榕",
+              "data": "folder=fp"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "茄苳",
+              "data": "folder=bj"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "樟樹",
+              "data": "folder=cc"
+            },
+            "style": "primary"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "小葉欖仁",
+              "data": "folder=tm"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "榕樹",
+              "data": "folder=fm"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "白千層",
+              "data": "folder=mi"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "水黃皮",
+              "data": "folder=mp"
+            },
+            "style": "primary"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "阿勃勒",
+              "data": "folder=pc"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "大王椰子",
+              "data": "folder=rr"
+            },
+            "style": "primary"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "黑板樹",
+              "data": "folder=as"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "辨識！",
+              "data": "folder=model_selection"
+            },
+            "style": "secondary",
+            "color": "#00BFFF"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "上一層",
+              "data": "folder=story"
+            },
+            "style": "secondary",
+            "color": "#FFE4C4"
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "header": {
+      "backgroundColor": "#E8FFE8"
+    },
+    "body": {
+      "backgroundColor": "#F0FFF0"
+    }
+  }
+}
+
+
+
+}
+]

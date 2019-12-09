@@ -1,0 +1,47 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "主選單",
+  "chatBarText": "主選單",
+  "areas": [
+    {
+      "bounds": {
+        "x": 0,
+        "y": 5,
+        "width": 816,
+        "height": 838
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=map"
+      }
+    },
+    {
+      "bounds": {
+        "x": 826,
+        "y": 0,
+        "width": 774,
+        "height": 843
+      },
+      "action": {
+        "type": "postback",
+        "data": "menu=detect_menu"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1609,
+        "y": 0,
+        "width": 891,
+        "height": 843
+      },
+      "action": {
+        "type": "postback",
+        "data": "menu=story_menu"
+      }
+    }
+  ]
+}

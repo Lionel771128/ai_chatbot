@@ -1,0 +1,83 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "故事選單",
+  "chatBarText": "AI深度實戰故事",
+  "areas": [
+    {
+      "bounds": {
+        "x": 42,
+        "y": 37,
+        "width": 770,
+        "height": 364
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=story"
+      }
+    },
+    {
+      "bounds": {
+        "x": 863,
+        "y": 37,
+        "width": 769,
+        "height": 359
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=data_collect"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1679,
+        "y": 33,
+        "width": 774,
+        "height": 363
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=data_process"
+      }
+    },
+    {
+      "bounds": {
+        "x": 37,
+        "y": 443,
+        "width": 770,
+        "height": 364
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=train_ai"
+      }
+    },
+    {
+      "bounds": {
+        "x": 858,
+        "y": 443,
+        "width": 765,
+        "height": 359
+      },
+      "action": {
+        "type": "postback",
+        "data": "folder=backend"
+      }
+    },
+    {
+      "bounds": {
+        "x": 1684,
+        "y": 448,
+        "width": 774,
+        "height": 359
+      },
+      "action": {
+        "type": "postback",
+        "data": "menu=main_menu"
+      }
+    }
+  ]
+}
